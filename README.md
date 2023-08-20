@@ -1,8 +1,36 @@
-# React + Vite
+# tokplay-api-update
+### Installation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Clone the frontend repository: `https://github.com/radenazhar/tokplay-frontend.git`
+2. Install dependencies: `npm install`
 
-Currently, two official plugins are available:
+## Run project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To start the development server, run:
+
+```
+npm run dev
+```
+## Tech Stack
+
+Here are the tech stacks that TokPlay uses in its client-side:
+- React framework
+- Vite
+- Bootstrap
+- Axios
+
+ ## Features
+
+1. **Pages**:
+
+   - `/`: Homepage showing lists of video thumbnail pictures, and a search bar
+   - `/videos/${id}`: Display one of a video, list of products related to the video, and comments related to the video
+
+2. **Comments**:
+
+   - Users can see previous comments from other users
+   - User can also upload a new comment without having to register/login
+
+3. **Product list**:
+
+   - In video detail page, users can see recommended product based on video they are watching
